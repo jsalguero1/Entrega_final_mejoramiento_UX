@@ -36,6 +36,9 @@
         <activity
             android:name=".MiDia01Activity"
             android:exported="false"/>
+        <activity
+            android:name=".MiDia02Activity"
+            android:exported="false"/>
     </application>
 
 </manifest>
