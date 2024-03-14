@@ -1,6 +1,7 @@
 package com.uniandes.miso.medicarealert
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.uniandes.miso.medicarealert.databinding.ActivityMiDia02Binding
@@ -20,9 +21,9 @@ class MiDia02Activity: AppCompatActivity() {
     }
 
     private fun loadMiDia03Activity(context: Context) {
-        //val intent = Intent(context, MiDia03Activity::class.java)
-        //context.startActivity(intent)
-        //finish()
+        val intent = Intent(context, MiDia03Activity::class.java)
+        context.startActivity(intent)
+        finish()
     }
 
 }
