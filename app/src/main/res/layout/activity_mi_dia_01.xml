@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MiDia01Activity">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/login"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="40dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/txtLogoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Recordatorios del dia"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/txtInfo01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLogoName"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/info_01"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtInfo02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtInfo01"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/info_02"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtInfo03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtInfo02"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/info_03"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtInfo04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtInfo03"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/info_04"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCompartirCodigo"
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/txtInfo04"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/border_button"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Compartir código"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textAllCaps="false" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutIconos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border_navigation_01"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Mi dia"
+                android:gravity="center"
+                android:textColor="#FEF9F9"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:paddingRight="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border_navigation_02"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ocurrencias"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textAllCaps="false" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border_navigation_03"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ajustes"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:paddingLeft="0dp"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
