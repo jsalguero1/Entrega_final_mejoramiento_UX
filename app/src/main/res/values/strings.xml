@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">medicarealert</string>
+    <string name="logo_name">Inicio de sesion</string>
+    <string name="label">label</string>
+    <string name="olvide_mi_clave"><u>Olvide mi clave</u></string>
+    <string name="no_tengo_cuenta"><u>No tengo cuenta</u></string>
+    <string name="ya_tengo_cuenta"><u>Ya tengo cuenta</u></string>
+    <string name="info_01">Parece que no tienes ningún plan de recordatorios activos</string>
+    <string name="info_02">Pide a tu administrador que te vincule para ver tu plan de recordatorios! </string>
+    <string name="info_03">Puede vincularte con el siguiente codigo:</string>
+    <string name="info_04">7534</string>
+</resources>

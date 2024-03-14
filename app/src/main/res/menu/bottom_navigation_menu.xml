@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_1"
+        android:enabled="true"
+        android:title="Mi dia"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="20sp"/>
+    <item
+        android:id="@+id/item_2"
+        android:enabled="true"
+        android:title="Ocurrencias"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="20sp"/>
+    <item
+        android:id="@+id/item_3"
+        android:enabled="true"
+        android:title="Ajustes"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="20sp"/>
+</menu>
